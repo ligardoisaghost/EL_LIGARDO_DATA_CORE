@@ -1,13 +1,7 @@
-#!/bin/zsh
-set -euo pipefail
+#!/usr/bin/env bash
+set -e
 
-cd "$HOME/EL_LIGARDO_DATA_CORE"
-
-# stage everything
+msg="${1:-checkpoint}"
 git add -A
-
-# only commit if there are changes
-if ! git diff --cached --quiet; then
-  TS=$(date +"%Y-%m-%d_%H-%M")
-  git commit -m "auto-checkpoint ${TS}"
-fi
+git commit -m "$msg"
+git push
