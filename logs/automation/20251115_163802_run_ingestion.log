@@ -1,0 +1,4 @@
+[START] Full YouTube ingestion
+[FILE] Ingesting YT_ANALYTICS_MASTER_20251112_FINAL.csv -> data/processed/YT_ANALYTICS_MASTER_20251112_FINAL.jsonl
+[DONE] YT_ANALYTICS_MASTER_20251112_FINAL.csv
+[COMPLETE] Ingestion finished

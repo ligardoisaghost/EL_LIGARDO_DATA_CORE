@@ -1,0 +1,4 @@
+[START] YouTube ingestion bootstrap
+[OK] raw directory present
+[READY] place your CSVs into data/raw/ before running full pipeline
+[DONE] bootstrap complete
