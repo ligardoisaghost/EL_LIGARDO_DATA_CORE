@@ -1,0 +1,3 @@
+.DS_Store
+logs/automation/*.log
+data/raw/test_small.csv
